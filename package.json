@@ -1,7 +1,7 @@
 {
-  "name": "dougiebot_v2",
+  "name": "dougiebot_v1",
   "version": "1.0.0",
-  "description": "dougiebot_v2",
+  "description": "dougiebot_v1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
