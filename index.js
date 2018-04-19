@@ -41,21 +41,6 @@ bot.on("message", async message => {
 });
 
 //token
-bot.login(setting.token);
+bot.login(process.env.BOT_TOKEN);
 
-/*
-bot.on("ready",() => {
-});
-*/
 
-/*
-bot.generateInvite(["ADMINISTRATOR"]).then(link =>{
-    console.log(link);
-}).catch(err => {
-    console.log(err.stack);
-});
-
-console.log("hello2");
-console.log(setting.token);
-console.log(setting.prefix);
-*/
